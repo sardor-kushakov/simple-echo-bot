@@ -25,7 +25,7 @@ public class Echo extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return BotUtils.username;
+        return BotUtils.USERNAME;
     }
 
     public Echo(String botToken) {

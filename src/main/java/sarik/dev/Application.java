@@ -11,7 +11,7 @@ public class Application {
     public static void main(String[] args) {
         try {
             TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
-            botsApi.registerBot(new Echo(BotUtils.token));
+            botsApi.registerBot(new Echo(BotUtils.TOKEN));
             System.out.println("Bot started!");
         } catch (TelegramApiException e) {
             throw new RuntimeException(e);
