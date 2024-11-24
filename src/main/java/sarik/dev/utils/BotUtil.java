@@ -3,7 +3,7 @@ package sarik.dev.utils;
 /**
  * Bot uchun foydali parametrlarni saqlaydigan klass.
  */
-public class BotUtils {
+public class BotUtil {
 
     // Bot foydalanuvchi nomi
     public static final String USERNAME = "your_bot_username";
